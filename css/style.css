@@ -126,7 +126,18 @@ border-top: 10px solid #e6edf6;
   padding-left: 7px;
   margin-left: 7px;
   background-color: #e6edf6;
+  position: relative;
 }
+
+.chat3:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -.5rem;
+  border-left: 10px solid transparent;
+  border-top: 10px solid #f2f2f2;
+} 
+
 
 
 .chat4 {
